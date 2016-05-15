@@ -1,0 +1,39 @@
+video{
+	width: 361px;
+    height: 202px;
+    position: relative;
+    top: 157px;
+    left: -4px;
+    z-index: 1;
+}
+
+button{
+	position: relative;
+	z-index: 1;
+}
+
+canvas{
+/*	width: 1280px !important;
+    height: 808px !important;*/
+  /*  border: 1px solid red;*/
+    position: relative;
+    top: -14px;
+    /*width: 100% !important;*/
+
+    width: 100px;
+    height: 100px;
+    background: red;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+
+
+    
+}
+
+#defaultCanvas{
+    width: 1280px !important;
+    height: 1738px !important;
+    top: -1280px;
+    z-index: -1;
+}
